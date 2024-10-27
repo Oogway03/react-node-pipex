@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./App.css";
 
 function App() {
   const [data, setData] = useState(null);
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <h1>React & Express</h1>
+      <h1>Sito energetico</h1>
       <p>{data ? data : "Loading..."}</p>
     </div>
   );
