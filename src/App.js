@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <h1>Sito energetico</h1>
+      <h1>Oogway03</h1>
       <p>{data ? data : "Loading..."}</p>
     </div>
   );
